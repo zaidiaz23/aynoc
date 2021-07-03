@@ -1,0 +1,139 @@
+/*NAVBAR*/
+
+.navbar-dark {
+    background-color: #e0606b !important;
+    color: #FFF4DE;
+}
+
+.navbar-dark .navbar-brand {
+    color: #FFF4DE;
+}
+
+.navbar-dark .navbar-brand:hover
+{
+    color:#3D4D52;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #FFF4DE;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #3D4D52;
+}
+
+/*HEADER*/
+
+.colorcito-header {
+    background-color: #FFF4DE !important;
+}
+
+.colorcito-texto-header
+{
+    color: #ECB447;
+}
+
+
+.botoncin-header
+{
+    color: #fff;
+    background-color: #110042;
+    border-color: #110042;
+}
+
+.botoncin-header:hover
+{
+    color: #fff;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/*HEADER*/
+
+.seccion1
+{
+    background-color: #FDE4E6;
+
+}
+
+
+.seccion1-textobold
+{
+ color: #E0444E;
+}
+
+
+
+body{
+    font-family: 'Nunito', sans-serif;
+    padding: 50px;
+  }
+
+
+/*SECCIÓN DE CARDS DE PRUEBA*/
+.cardcito
+  {
+      background: #A5D8E5;
+  }
+ .cardcito .card{
+      border-radius: 4px;
+      background: #fff;
+      box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+        transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    padding: 14px 80px 18px 36px;
+    cursor: pointer;
+  }
+  
+  .cardcito  .card:hover{
+       transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  }
+
+  .cardcito .card h3{
+    font-weight: 600;
+    color: #110042;
+  }
+  
+  .cardcito .card p
+  {
+    color: #110042;
+  }
+  .cardcito .card img{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    max-height: 120px;
+  }
+
+  
+  .cardcito .card-1{
+    background-image: url(https://ionicframework.com/img/getting-started/ionic-native-card.png);
+        background-repeat: no-repeat;
+      background-position: right;
+      background-size: 80px;
+  }
+  
+  .cardcito .card-2{
+     background-image: url(https://ionicframework.com/img/getting-started/components-card.png);
+        background-repeat: no-repeat;
+      background-position: right;
+      background-size: 80px;
+  }
+  
+  .cardcito .card-3{
+     background-image: url(https://ionicframework.com/img/getting-started/theming-card.png);
+        background-repeat: no-repeat;
+      background-position: right;
+      background-size: 80px;
+  }
+  
+  @media(max-width: 990px){
+    .cardcito .card{
+      margin: 20px;
+    }
+  } 
+
+
+  .cardcito2
+  {
+      background: #FFF4DE;
+  }
