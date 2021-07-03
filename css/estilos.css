@@ -19,7 +19,54 @@
 }
 
 .navbar-dark .navbar-nav .nav-link:hover{
-    color: #3D4D52;
+    color: #E4E1D7;
+}
+
+/*ESTILOS A LAS A DEL MENU, NAVBAR*/
+.estilito
+{
+  position: relative;
+  display: block;
+  padding: 4px 0;
+  font-family: Lato, sans-serif;
+  color: #E4E1D7;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.estilito::after
+{
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #FFCFD2;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s;
+}
+
+.estilito:hover{
+  color: #E4E1D7;
+}
+
+.estilito:hover::after
+{
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) 
+{
+  .estilito:hover::after
+{
+  transform: scaleX(0.3);
+  transform-origin: left;
+}
 }
 
 /*HEADER*/
