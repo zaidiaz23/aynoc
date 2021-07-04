@@ -1,0 +1,30 @@
+/*FORMULARIO DE CONTACTO, INPUTS*/
+
+.form-floating .form-control
+{
+    border-radius: 25px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    opacity: 0.5;
+}
+
+.form-floating > label
+{
+    color: #110042;
+    opacity: 0.8;
+}
+
+
+.btn-contactus .btn-primary:disabled, .btn-contactus .btn-primary.disabled {
+    color: #fff;
+    background-color: #110042;
+    border-color: #110042;
+    border-radius: 3rem;
+}
+
+.btn-contactus .btn-primary {
+    color: #fff;
+    background-color: #110042;
+    border-color: #110042;
+    border-radius: 3rem;
+}
+
