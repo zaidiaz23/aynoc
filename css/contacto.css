@@ -1,5 +1,16 @@
-/*FORMULARIO DE CONTACTO, INPUTS*/
+/*FORMULARIO DE CONTACTO*/
 
+.contenedor-contactos
+{
+    background-color: #FCDD9F;
+}
+
+.contenedor-contactos .subcontenedor
+{
+    background: #FFF4DE !important;
+}
+
+/*FORMULARIO DE CONTACTO, INPUTS*/
 .form-floating .form-control
 {
     border-radius: 25px;

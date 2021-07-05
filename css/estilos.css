@@ -154,69 +154,6 @@
 }
 
 
-/*SECCIÓN DE CARDS DE PRUEBA*/
-.cardcito
-  {
-      background: #A5D8E5;
-
-  }
- .cardcito .card{
-      border-radius: 4px;
-      background: #fff;
-      box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
-        transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
-    padding: 14px 80px 18px 36px;
-    cursor: pointer;
-  }
-  
-  .cardcito  .card:hover{
-       transform: scale(1.05);
-    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
-  }
-
-  .cardcito .card h3{
-    font-weight: 600;
-    color: #110042;
-  }
-  
-  .cardcito .card p
-  {
-    color: #110042;
-  }
-  .cardcito .card img{
-    position: absolute;
-    top: 20px;
-    right: 15px;
-    max-height: 120px;
-  }
-
-  
-  .cardcito .card-1{
-    background-image: url(https://ionicframework.com/img/getting-started/ionic-native-card.png);
-        background-repeat: no-repeat;
-      background-position: right;
-      background-size: 80px;
-  }
-  
-  .cardcito .card-2{
-     background-image: url(https://ionicframework.com/img/getting-started/components-card.png);
-        background-repeat: no-repeat;
-      background-position: right;
-      background-size: 80px;
-  }
-  
-  .cardcito .card-3{
-     background-image: url(https://ionicframework.com/img/getting-started/theming-card.png);
-        background-repeat: no-repeat;
-      background-position: right;
-      background-size: 80px;
-  }
-  
-  @media(max-width: 990px){
-    .cardcito .card{
-      margin: 20px;
-    }
-  } 
 
 /* SECCTIÓN DE CARDS */
   .cardcito2
@@ -257,6 +194,10 @@
 
 /*Trabaja con nosotros*/
 
+.seccion-trabaja-us
+{
+  background: #FFF4DE;
+}
 .section-us {
   position: relative;
   width: 900px;
@@ -264,12 +205,12 @@
   border: 2px solid #333;
   border-top: none;
   text-align: center;
-  margin: 60px auto;
+  margin: 0px auto;
 }
 
 .section-us h1 {
   position: relative;
-  margin-top: -14px;
+  margin-top: -2px;
   display: inline-block;
   letter-spacing: 4px;
 }
