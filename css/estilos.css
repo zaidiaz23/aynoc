@@ -1,3 +1,10 @@
+/*** GLOBAL ***/
+/*FOOTER*/
+.footer-lca
+{
+  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%); 
+}
+
 /*NAVBAR*/
 .navbar-dark {
     background-color: #1D183E !important;
@@ -13,20 +20,20 @@
 }
 
 .navbar-dark .navbar-brand {
-    color: #FFF4DE;
+    color: #d9ed92;
 }
 
 .navbar-dark .navbar-brand:hover
 {
-    color:#3D4D52;
+    color:#b5e48c;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #FFF4DE;
+    color: #d9ed92;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover{
-    color: #E4E1D7;
+    color: #b5e48c;
 }
 
 /*ESTILOS A LAS A DEL MENU, NAVBAR*/
@@ -36,7 +43,7 @@
   display: block;
   padding: 4px 0;
   font-family: Lato, sans-serif;
-  color: #E4E1D7;
+  color: #b5e48c;
   text-decoration: none;
   text-transform: uppercase;
   transition: 0.5s;
@@ -50,20 +57,43 @@
   left: 0;
   width: 100%;
   height: 3px;
-  background: #FFCFD2;
+  background: #b5e48c;
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 0.5s;
 }
 
 .estilito:hover{
-  color: #E4E1D7;
+  color: #b5e48c;
 }
 
 .estilito:hover::after
 {
   transform: scaleX(1);
   transform-origin: left;
+}
+
+/*ESTILOS A TEXTO*/
+
+/*Títulos principales*/
+.titulo-principal-lca
+{
+ color: #110042;
+}
+
+.subtitulo-lca
+{
+ color: #001D3D;
+}
+
+.down-subtitulo-lca
+{
+
+}
+
+.texto-justificado
+{
+  justify-content: center;
 }
 
 /** dispositivos pequeños en vista landscape (horizontal) */
@@ -74,265 +104,6 @@
   transform: scaleX(0.3);
   transform-origin: left;
 }
-}
-
-/*HEADER*/
-
-
-.colorcito-header {
-  background-image: linear-gradient(37deg, rgb(32, 218, 233),rgb(40, 21, 236));
-}
-
-.colorcito-texto-header
-{
-    color: #110042;
-/*    text-shadow: 2px 2px 4px #FDE4E6;*/
-}
-
-
-.botoncin-header
-{
-    color: #fff;
-    background-color: #110042;
-    border-color: #110042;
-}
-
-.botoncin-header:hover
-{
-    color: #fff;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-
-.boton-header
-{
-  background: none;
-  border: 3px solid #110042;
-  color: #110042;
-  border-radius: 5px;
-  font-size: 1.2em;
-  font-weight: 250;
-}
-
-.boton-header, .boton-header::after
-{
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-
-.boton-header::before, .boton-header::after
-{
-  background: #110042;
-  content: '';
-  position: absolute;
-  z-index: -1;
-}
-
-.boton-header:hover
-{
-  color: #110042;
-  background-color: #fff;
-}
-
-
-
-/*HEADER*/
-
-.seccion1
-{
-  background-image: radial-gradient(circle 7px at 65% 42%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 7px at 18% 54%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 7px at 69% 14%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 7px at 0% 63%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 7px at 41% 87%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 5px at 81% 77%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 5px at 97% 65%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 5px at 78% 54%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 5px at 99% 20%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 5px at 13% 74%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 12px at 71% 11%, rgb(43,43,43) 0%, rgb(43,43,43) 50%,transparent 50%, transparent 100%),radial-gradient(circle 12px at 86% 30%, rgb(43,43,43) 0%, rgb(43,43,43) 50%,transparent 50%, transparent 100%),radial-gradient(circle 12px at 56% 50%, rgb(43,43,43) 0%, rgb(43,43,43) 50%,transparent 50%, transparent 100%),radial-gradient(circle at center right, rgb(35,35,35) 0%, rgb(35,35,35) 10%,transparent 10%, transparent 90%),linear-gradient(90deg, rgb(47, 113, 183),rgb(136, 79, 213));
-}
-
-
-.seccion1-textobold
-{
- color: #E0444E;
-}
-
-
-
-/* SECCTIÓN DE CARDS */
-  .cardcito2
-  {
-    background-image: radial-gradient(circle 7px at 23% 62%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 7px at 25% 58%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 7px at 57% 71%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 5px at 65% 94%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 5px at 22% 15%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 5px at 22% 76%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 5px at 66% 78%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 5px at 12% 17%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 12px at 73% 76%, rgb(43,43,43) 0%, rgb(43,43,43) 50%,transparent 50%, transparent 100%),radial-gradient(circle 12px at 84% 91%, rgb(43,43,43) 0%, rgb(43,43,43) 50%,transparent 50%, transparent 100%),radial-gradient(circle at bottom left, rgb(35,35,35) 0%, rgb(35,35,35) 10%,transparent 10%, transparent 90%),linear-gradient(135deg, rgb(28, 37, 233),rgb(61, 215, 224)); 
-  }
-
- /* .cardcito2 .card{
-  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
-  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
-  cursor: pointer;
-}
-  .cardcito2  .card:hover{
-    transform: scale(1.05);
- box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
-}*/
-
-
-.cardcito2 .card
-{
-  border-radius: 10px;
-  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
-  transition: all 0.5s;
-  background: transparent;
-}
-
-.cardcito2 .card:hover
-{
-  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
-  transform: scale(1.01);
-}
-
-.cardcito2 .card .bg-image img
-{
-  border-radius: 10px;
-}
-
-/*Seccion testimonios*/
-
-.seccion-testimonio
-{
-  background-image: radial-gradient(circle 7px at 89% 91%, rgb(62,62,62) 0%, rgb(62,62,62) 50%,transparent 50%, transparent 100%),radial-gradient(circle 7px at 7% 16%, rgb(62,62,62) 0%, rgb(62,62,62) 50%,transparent 50%, transparent 100%),radial-gradient(circle 7px at 99% 69%, rgb(62,62,62) 0%, rgb(62,62,62) 50%,transparent 50%, transparent 100%),radial-gradient(circle 5px at 78% 33%, rgb(64,64,64) 0%, rgb(64,64,64) 50%,transparent 50%, transparent 100%),radial-gradient(circle 5px at 77% 32%, rgb(64,64,64) 0%, rgb(64,64,64) 50%,transparent 50%, transparent 100%),radial-gradient(circle 5px at 47% 9%, rgb(64,64,64) 0%, rgb(64,64,64) 50%,transparent 50%, transparent 100%),radial-gradient(circle 5px at 11% 33%, rgb(64,64,64) 0%, rgb(64,64,64) 50%,transparent 50%, transparent 100%),radial-gradient(circle 5px at 3% 9%, rgb(64,64,64) 0%, rgb(64,64,64) 50%,transparent 50%, transparent 100%),radial-gradient(circle 12px at 35% 68%, rgb(60,60,60) 0%, rgb(60,60,60) 50%,transparent 50%, transparent 100%),radial-gradient(circle 12px at 72% 32%, rgb(60,60,60) 0%, rgb(60,60,60) 50%,transparent 50%, transparent 100%),radial-gradient(circle 12px at 51% 20%, rgb(60,60,60) 0%, rgb(60,60,60) 50%,transparent 50%, transparent 100%),radial-gradient(circle at center right, rgb(35,35,35) 0%, rgb(35,35,35) 10%,transparent 10%, transparent 90%),linear-gradient(135deg, rgb(225, 44, 231),rgb(67, 2, 150));
-}
-
-/*Trabaja con nosotros*/
-
-.seccion-trabaja-us
-{
-  background: #FFF4DE;
-}
-.section-us {
-  position: relative;
-  width: 900px;
-  max-width: 80%;
-  border: 2px solid #333;
-  border-top: none;
-  text-align: center;
-  margin: 0px auto;
-}
-
-.section-us h1 {
-  position: relative;
-  margin-top: -2px;
-  display: inline-block;
-  letter-spacing: 4px;
-}
-
-.top-border{
-  position: absolute;
-  height: 2px;
-  width: 10%;
-  background-color: #333;
-}
-
-.right {
-  right: 0;
-}
-
-.left {
-  left: 0;
-}
-
-
-    /** dispositivos móviles en vista viewport (vertical) */
-@media (max-width: 575px) {
-  .top-border {	
-    width: 3%;
-      }
-}
-
-/** dispositivos pequeños en vista landscape (horizontal) */
-@media (min-width: 576px) and (max-width: 767px) 
-{
-  
-}
-
-/** dispositivos medianos (tablets) */
-@media (min-width: 768px) and (max-width: 991px) 
-{
-  
-}
-
-/** dispositivos grandes (desktops) */
-@media (min-width: 992px) and (max-width: 1199px) 
-{
-  
-}
-
-/** dispositivos extra grandes (monitores grandes, tvs) */
-@media (min-width: 1200px) 
-{
-
-}
-
-.section-us p {
-  width: 61%;
-  margin: 20px auto 40px auto;
-  line-height: 30px;
-}
-
-.section-us a {
-  outline: 0;
-  display: inline-block;
-  padding: 20px;
-  margin-bottom: 40px;
-  width: 440px;
-  max-width: 80%;
-  background-color: #333;
-  color: #fff;
-  font-size: 22px;
-  letter-spacing: 3px;
-  transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -webkit-transition: all 0.3s ease 0s;
-}
-
-.section-us a:hover {
-  background-color: #1D222D;
-}
-
-.section-us a:link, .section a:visited, .section-us a:link:hover, .section-us a:visited:hover {
-  text-decoration: none;
-  color: #fff;
-}
-
-@media (max-width: 500px) {
-  .top-border {	
-    display: none;
-  }
-  .section-us {
-  border-top: 2px solid #333;
-  }
-  .section-us h1 {
-    margin: 20px 6px;
-  }
-}
-
-/*Separador con punto amarillo, footer*/
-
-.divider
-{
-	position: relative;
-	margin-top: 5px;
-	height: 1px;
-}
-
-.div-dot:after
-{
-	content: "";
-	position: absolute;
-	z-index: 1;
-	top: -9px;
-	left: calc(50% - 9px);
-	width: 18px;
-	height: 18px;
-	background-color: goldenrod;
-	border: 1px solid rgb(48,49,51);
-	border-radius: 50%;
-	box-shadow: inset 0 0 0 2px white,
-					0 0 0 4px white;
 }
 
 /*Separador rosadita*/
@@ -356,4 +127,261 @@
   transform: translateX(-50%) translateY(100%);
   opacity: 0.8;
 }
+/*** TERMINA GLOBAL ***/
 
+/*** INICIA HEADER ***/
+.colorcito-header {
+ /* background-image: linear-gradient(37deg, rgb(32, 218, 233),rgb(40, 21, 236));*/
+  /*background-image: linear-gradient(90deg, rgb(212, 91, 106),rgb(255, 224, 123));*/
+
+  background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+  padding-bottom: 0px !important;
+ 
+}
+
+.withoutbottom
+{
+  margin-bottom: 0px !important;
+}
+
+
+.colorcito-texto-header
+{
+    color: #110042;
+/*    text-shadow: 2px 2px 4px #FDE4E6;*/
+}
+
+.botoncin-header
+{
+    color: #fff;
+    background-color: #110042;
+    border-color: #110042;
+}
+
+.botoncin-header:hover
+{
+    color: #fff;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.boton-header
+{
+  background: none;
+  border: 3px solid #110042;
+  color: #110042;
+  border-radius: 5px;
+  font-size: 1.2em;
+  font-weight: 250;
+}
+
+.boton-header, .boton-header::after
+{
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.boton-header::before, .boton-header::after
+{
+  background: #110042;
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+
+.boton-header:hover
+{
+  color: #110042;
+  background-color: #fff;
+}
+
+
+/*** TERMINA HEADER ***/
+
+/**SECCIÓN DE WHAT TO DO**/
+.seccion-quehacer
+{
+  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+
+.seccion-quehacer .card
+{
+  border-radius: 10px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.5s;
+  background: transparent;
+}
+
+.seccion-quehacer-titulo-lca
+{
+  color: #1D183E;
+}
+
+.seccion-quehacer-subtitulo-lca
+{
+  color: #184E77;
+}
+
+.seccion-quehacer-boton-lca
+{
+  background-color: #184E77;
+  color: white;
+  border-radius: 25px;
+  border: none;
+}
+
+.seccion-quehacer-boton-lca:hover
+{
+  background-color: #168AAD;
+  color: white;
+  border-radius: 25px;
+
+}
+
+/*** INICIA SECCIÓN DE CARDS ***/
+  .cardcito2
+  {
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+  }
+
+.cardcito2 .card
+{
+  border-radius: 10px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.5s;
+  background: transparent;
+}
+
+.cardcito2 .card:hover
+{
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+  transform: scale(1.01);
+}
+
+.cardcito2 .card .bg-image img
+{
+  border-radius: 10px;
+}
+
+.cardcito2-titulo-lca
+{
+  color: #1D183E;
+}
+
+.cardcito2-subtitulo-lca
+{
+  color: #184E77;
+}
+
+.cardcito2-boton-lca
+{
+  background-color: #184E77;
+  color: white;
+  border-radius: 25px;
+  border: none;
+}
+
+.cardcito2-boton-lca:hover
+{
+  background-color: #168AAD;
+  color: white;
+  border-radius: 25px;
+
+}
+
+
+/*** TERMINA SECCIÓN CARDS.***/
+
+/*** INICIA SECCIÓN DE FACILIDADES. ***/
+.seccion-facilidades
+{
+  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+
+/*Colores a Iconos*/
+
+.seccion-facilidades .icon-1
+{
+
+}
+.seccion-facilidades .icon-2
+{
+  color: #59BB93;
+}
+.seccion-facilidades .icon-3
+{
+ color: #FFD96A;
+}
+.seccion-facilidades .icon-4
+{
+ color: #27B7EB;
+}
+
+/*** TERMINA SECCIÓN DE FACILIDADES. ***/
+
+/*** INICIA SECCIÓN DE TESTIMONIOS. ***/
+.seccion-testimonio
+{
+  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%); 
+}
+
+/*** TERMINA SECCIÓN DE TESTIMONIOS. ***/
+
+
+
+
+
+
+/*****************************INICIA PÁGINA DE SERVICIOS****************************/
+
+.header-servicios-lca
+{
+  background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+  
+}
+
+.header-servicios-lca .card
+{
+  border-radius: 10px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.5s;
+  background: transparent;
+}
+
+.header-servicios-lca .card:hover
+{
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+  transform: scale(1.01);
+}
+
+.header-servicios-lca .card .bg-image img
+{
+  border-radius: 10px;
+}
+
+.cards-servicios-titulo-lca
+{
+  color: #1D183E;
+}
+
+.cards-servicios-subtitulo-lca
+{
+  color: #184E77;
+}
+
+.cards-servicios-boton-lca
+{
+  background-color: #184E77;
+  color: white;
+  border-radius: 25px;
+  border: none;
+}
+
+.cards-servicios-boton-lca:hover
+{
+  background-color: #168AAD;
+  color: white;
+  border-radius: 25px;
+
+}

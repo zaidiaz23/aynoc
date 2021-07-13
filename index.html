@@ -11,9 +11,6 @@
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Bootstrap icons-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"
-        media="all" />
-
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
     <link href="css/estilos.css" rel="stylesheet" />
@@ -98,23 +95,58 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center">
-                        <img class="img-fluid rounded-3 my-5" src="src/lc13.jpg" alt="..." />
+                    <div class="col-xl-5 col-xxl-6 d-xl-block text-center"> <!---sE QUITÓ EL d-none -->
+                        <img class="img-fluid rounded-3 my-5 withoutbottom" src="src/header_1.svg"  alt="..." /> <!---SE AGREGÓ EL whitoutbottom para ponerle al pie del conteendor-->
                     </div>
                 </div>
             </div>
         </header>
+        <!--Sección de que es este sitio y qué hacer-->
+        <section class="py-5 seccion-quehacer">
+            <div class="container px-5 my-5">
+        <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title seccion-quehacer-titulo-lca text-center">¿C&oacute;mo funcionan nuestros cursos de idiomas?</h5>
+                <ul class="list-unstyled mb-4">                                
+                    <li class="mb-2"><i class="bi bi-check2-all seccion-quehacer-subtitulo-lca"></i>
+                      <span class="seccion-quehacer-subtitulo-lca"> Busca y selecciona alg&uacute;n idioma de tu inter&eacute;s.</span></li>
+                    <li class="mb-2"><i class="bi bi-check2-all seccion-quehacer-subtitulo-lca"></i>
+                      <span class="seccion-quehacer-subtitulo-lca"> Comun&iacute;cate con nuestros asesores.</span></li>
+                </ul>
+                  <a href="#" class="btn seccion-quehacer-boton-lca">Enviar un mensaje</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title seccion-quehacer-titulo-lca text-center">¿A qui&eacute;n va dirigido?</h5>
+                  <ul class="list-unstyled mb-4">                                
+                      <li class="mb-2"><i class="bi bi-check2-all seccion-quehacer-subtitulo-lca"></i>
+                        <span class="seccion-quehacer-subtitulo-lca"> Cualquiera que est&eacute; interesado en aprender idiomas.</span></li>
+                      <li class="mb-2"><i class="bi bi-check2-all seccion-quehacer-subtitulo-lca"></i>
+                        <span class="seccion-quehacer-subtitulo-lca"> Comun&iacute;cate con nuestros asesores.</span></li>
+                  </ul>
+                    <a href="#" class="btn seccion-quehacer-boton-lca">Enviar un mensaje</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+            </div>
+        </section>
         <section class="triangle"></section>
-        <!--Sección de Cards de Cursos II-->
+        <!--Sección de Cards de Cursos.-->
         <section class="py-5 cardcito2">
             <div class="container px-5 my-5">
                 <div class="row gx-5 justify-content-center">
-                    <div class="col-lg-8 col-xl-6">
+                    <div class="col-lg-8 col-xl-8">
                         <div class="text-center">
-                            <h2 class="fw-bolder">From our blog</h2>
-                            <p class="lead fw-normal text-muted mb-5">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                Eaque fugit ratione dicta mollitia. Officiis ad.
+                            <h2 class="fw-bolder titulo-principal-lca">IDIOMAS QUE PODR&Iacute;AN INTERESARTE...</h2>
+                            <p class="subtitulo-lca lead fw-normal mb-5">
+                                Tenemos preparado una variedad especialmente para ti.
                             </p>
                         </div>
                     </div>
@@ -123,23 +155,45 @@
                     <div class="col-lg-4 mb-5">
                         <div class="card">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                <img src="src/lc4-test.png" class="img-fluid" />
+                                <img src="src/1_esp.svg" class="img-fluid" />
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title text-center">APRENDE INGLÉS</h5>
-                                <p class="card-text">
+                                <h5 class="cardcito2-titulo-lca card-title text-center">APRENDE INGL&Eacute;S</h5>
+                                <p class="card-text cardcito2-subtitulo-lca">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                     Lorem ipsum dolor sit amet.
                                 </p>
                                 <ul class="list-unstyled mb-4">
                                     
-                                    <li class="mb-2"><i class="bi bi-bookmark-heart"></i>
-                                        Lorem ipsum dolor sit amet, consectetur.</li>
-                                    <li class="mb-2"><i class="bi bi-bookmark-heart"></i>
-                                        Lorem ipsum dolor sit amet, consectetur.</li>
+                                    <li class="mb-2"><i class="bi bi-bookmark-heart cardcito2-subtitulo-lca"></i>
+                                      <span class="cardcito2-subtitulo-lca"> Lorem ipsum dolor sit amet, consectetur.</span></li>
+                                    <li class="mb-2"><i class="bi bi-bookmark-heart cardcito2-subtitulo-lca"></i>
+                                        <span class="cardcito2-subtitulo-lca"> Lorem ipsum dolor sit amet, consectetur.</span></li>
+                                </ul>
+                                <a href="#!" class="btn cardcito2-boton-lca d-flex justify-content-center">VER MÁS</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-5">
+                        <div class="card">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="src/2_ger.svg" class="img-fluid" />
+                            </div>
+                            <div class="card-body">
+                                <h5 class="cardcito2-titulo-lca card-title text-center">APRENDE ESPA&Ntilde;OL</h5>
+                                <p class="card-text cardcito2-subtitulo-lca">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Lorem ipsum dolor sit amet.
+                                </p>
+                                <ul class="list-unstyled mb-4">
+                                    
+                                    <li class="mb-2"><i class="bi bi-bookmark-heart cardcito2-subtitulo-lca"></i>
+                                      <span class="cardcito2-subtitulo-lca"> Lorem ipsum dolor sit amet, consectetur.</span></li>
+                                    <li class="mb-2"><i class="bi bi-bookmark-heart cardcito2-subtitulo-lca"></i>
+                                        <span class="cardcito2-subtitulo-lca"> Lorem ipsum dolor sit amet, consectetur.</span></li>
                                 </ul>
                                 <a href="#!" class="
-                      btn btn-outline-info
+                      btn cardcito2-boton-lca
                       d-flex
                       justify-content-center
                       btncard
@@ -150,38 +204,27 @@
                     <div class="col-lg-4 mb-5">
                         <div class="card">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                <img src="src/lc4-test.png" class="img-fluid" />
+                                <img src="src/3_eng.svg" class="img-fluid" />
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">
-                                    Some quick example text to build on the card title and make
-                                    up the bulk of the card's content.
+                                <h5 class="cardcito2-titulo-lca card-title text-center">APRENDE ALEM&Aacute;N</h5>
+                                <p class="card-text cardcito2-subtitulo-lca">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Lorem ipsum dolor sit amet.
                                 </p>
-                                <ul>
-                                    <li>Lorem ipsum dolor sit amet, consectetur.</li>
-                                    <li>Lorem ipsum dolor sit amet, consectetur.</li>
+                                <ul class="list-unstyled mb-4">
+                                    
+                                    <li class="mb-2"><i class="bi bi-bookmark-heart cardcito2-subtitulo-lca"></i>
+                                      <span class="cardcito2-subtitulo-lca"> Lorem ipsum dolor sit amet, consectetur.</span></li>
+                                    <li class="mb-2"><i class="bi bi-bookmark-heart cardcito2-subtitulo-lca"></i>
+                                        <span class="cardcito2-subtitulo-lca"> Lorem ipsum dolor sit amet, consectetur.</span></li>
                                 </ul>
-                                <a href="#!" class="btn btn-outline-info d-flex justify-content-center">Button</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 mb-5">
-                        <div class="card">
-                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                <img src="src/lc4-test.png" class="img-fluid" />
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">
-                                    Some quick example text to build on the card title and make
-                                    up the bulk of the card's content.
-                                </p>
-                                <ul>
-                                    <li>Lorem ipsum dolor sit amet, consectetur.</li>
-                                    <li>Lorem ipsum dolor sit amet, consectetur.</li>
-                                </ul>
-                                <a href="#!" class="btn btn-outline-info d-flex justify-content-center">Button</a>
+                                <a href="#!" class="
+                      btn cardcito2-boton-lca
+                      d-flex
+                      justify-content-center
+                      btncard
+                    ">VER MÁS</a>
                             </div>
                         </div>
                     </div>
@@ -189,79 +232,54 @@
             </div>
         </section>
         <section class="triangle"></section>
-        <!-- Features section-->
-        <section class="py-5 seccion1" id="features">
+        <!-- Sección de Facilidades. -->
+        <section class="py-5 seccion-facilidades">
             <div class="container px-5 my-5">
                 <div class="row gx-5">
                     <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h2 class="fw-bolder mb-0 seccion1-textobold">
-                           SECCIÓN: FACILIDADES.
+                        <h2 class="fw-bolder mb-0 titulo-principal-lca">
+                           OFRECEMOS HOSPEDAJE:
                         </h2>
                     </div>
                     <div class="col-lg-8">
                         <div class="row gx-5 row-cols-1 row-cols-md-2">
                             <div class="col mb-5 h-100">
-                                <div class="
-                      feature
-                      bg-primary bg-gradient
-                      text-white
-                      rounded-3
-                      mb-3
-                    ">
-                                    <i class="bi bi-collection"></i>
+                               
+                                <div  class="col mb-5 h-100">
+                                    <img src="src/Ico1.png"></img>
                                 </div>
-                                <h2 class="h5">Featured title</h2>
-                                <p class="mb-0">
-                                    Paragraph of text beneath the heading to explain the
-                                    heading. Here is just a bit more text.
+                                <h2 class="h5 subtitulo-lca">A ESTUDIANTES Y VISITANTES</h2>
+                                <p class="mb-0 subtitulo-lca texto-justificado">
+                                    Les damos posibilidad de hospedarse en hogares de personas locales&#46;
                                 </p>
                             </div>
                             <div class="col mb-5 h-100">
-                                <div class="
-                      feature
-                      bg-primary bg-gradient
-                      text-white
-                      rounded-3
-                      mb-3
-                    ">
-                                    <i class="bi bi-building"></i>
+                                <div  class="col mb-5 h-100">
+                                    <img src="src/Ico2.png"></img>
                                 </div>
-                                <h2 class="h5">Featured title</h2>
-                                <p class="mb-0">
-                                    Paragraph of text beneath the heading to explain the
-                                    heading. Here is just a bit more text.
+                                <h2 class="h5 subtitulo-lca">EXPERIENCIA C&Oacute;MODA</h2>
+                                <p class="mb-0 subtitulo-lca">
+                                    Les brindamos un espacio c&eacute;ntrico y seguro&#46; y en compan&iacute;a de personas siempre dispuestas a recibir y 
+                                    convivir con visitantes de todas partes del mundo&#46;
                                 </p>
                             </div>
                             <div class="col mb-5 mb-md-0 h-100">
-                                <div class="
-                      feature
-                      bg-primary bg-gradient
-                      text-white
-                      rounded-3
-                      mb-3
-                    ">
-                                    <i class="bi bi-toggles2"></i>
+                                <div  class="col mb-5 h-100">
+                                    <img src="src/Ico3.png"></img>
                                 </div>
-                                <h2 class="h5">Featured title</h2>
-                                <p class="mb-0">
-                                    Paragraph of text beneath the heading to explain the
-                                    heading. Here is just a bit more text.
+                                <h2 class="h5 subtitulo-lca">RECOMENDACIONES</h2>
+                                <p class="mb-0 subtitulo-lca">
+                                    Los anfitriones recomiendan lugares o actividades de inter&eacute;s&#44; costumbres&#44; gastron&iacute;oma&#44; historias&#46;
                                 </p>
                             </div>
                             <div class="col h-100">
-                                <div class="
-                      feature
-                      bg-primary bg-gradient
-                      text-white
-                      rounded-3
-                      mb-3
-                    ">
-                                    <i class="bi bi-toggles2"></i>
+                                <div  class="col mb-5 h-100">
+                                    <img src="src/Ico4.png"></img>
                                 </div>
-                                <h2 class="h5">Featured title</h2>
-                                <p class="mb-0">
-                                    Paragraph of text beneath the heading to explain the
-                                    heading. Here is just a bit more text.
+                                <h2 class="h5 subtitulo-lca">CONVIVENCIA</h2>
+                                <p class="mb-0 subtitulo-lca">
+                                    Nadie mejor que personas locales para compartir su estancia durante su visita a la hermosa 
+                                    ciudad de San Crist&oacute;bal de Las Casas&#46;
                                 </p>
                             </div>
                         </div>
@@ -269,71 +287,50 @@
                 </div>
             </div>
         </section>
+        <section class="triangle"></section>
          <!-- Testimonios-->
-         <section class="testimonials text-center seccion-testimonio">
+         <section class="py-5 text-center seccion-testimonio">
             <div class="container">
-                <h2 class="mb-5">What people are saying...</h2>
+                <h2 class="mb-5 fw-bolder titulo-principal-lca">TESTIMONIOS</h2>
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="testimonial-item mx-auto mb-5 mb-lg-0">
                             <img class="img-fluid rounded-circle mb-3" src="https://dummyimage.com/250/f7eaf7" alt="..." />
-                            <h5>Margaret E.</h5>
-                            <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
+                            <h5 class="subtitulo-lca">Margaret E.</h5>
+                            <p class="font-weight-light mb-0 subtitulo-lca">"This is fantastic! Thanks so much guys!"</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="testimonial-item mx-auto mb-5 mb-lg-0">
                             <img class="img-fluid rounded-circle mb-3" src="https://dummyimage.com/250/f7eaf7" alt="..." />
-                            <h5>Fred S.</h5>
-                            <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
+                            <h5 class="subtitulo-lca">Fred S.</h5>
+                            <p class="font-weight-light mb-0 subtitulo-lca">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="testimonial-item mx-auto mb-5 mb-lg-0">
                             <img class="img-fluid rounded-circle mb-3" src="https://dummyimage.com/250/f7eaf7" alt="..." />
-                            <h5>Sarah W.</h5>
-                            <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to us!"</p>
+                            <h5 class="subtitulo-lca">Sarah W.</h5>
+                            <p class="font-weight-light mb-0 subtitulo-lca">"Thanks so much for making these free resources available to us!"</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="seccion-trabaja-us">
-            <div class="section-us">
-                <div class="top-border left"></div>
-                <div class="top-border right"></div>
-                <h1>Trabaja con nosotros</h1>
-                <p>¿Posees creatividad y experiencia en el campo de los idiomas?</p>
-                <a href="#">POSTÚLATE</a>
-            </div>
-        </section>
+        <section class="triangle"></section>
     </main>
-    <section>
-        <div class="divider div-transparent div-dot"></div>
-    </section>
-    <!-- Footer-->
-   <!-- Footer -->
-<footer class="text-center text-lg-start bg-light text-muted">
-    <!-- Section: Social media -->
-    <section
-      class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
-    >
-      <!-- Izquierda -->
+    <!--Footer-->
+<footer class="text-center text-lg-start footer-lca text-muted">
+    <!-- Sección: Redes sociales-->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
       <div class="me-5 d-none d-lg-block">
         <span>S&iacute;guenos en nuestras redes sociales:</span>
       </div>
-      <!-- Izquierda -->
-  
-      <!-- Derecha -->
       <div>
         <a href="" class="me-4 text-reset"><i class="bi bi-facebook"></i></a>
         <a href="" class="me-4 text-reset"><i class="bi bi-whatsapp"></i></a>
       </div>
-      <!-- Derecha -->
     </section>
-    <!-- Section: Social media -->
-  
-    <!-- Section: Links  -->
     <section class="">
       <div class="container text-center text-md-start mt-5">
         <!-- Grid row -->
@@ -348,19 +345,14 @@
               Una escuela de excelencia, estamos a tus &oacute;rdenes.
             </p>
           </div>
-          <!-- Grid column -->
-  
-  
-          <!-- Grid column -->
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-            <!-- Links -->
             <h6 class="text-uppercase fw-bold mb-4">
               Contacto
             </h6>
-            <p><i class="bi bi-house me-3"></i> Francisco I. Madero 29, Zona Centro, 29200 San Crist&oacute;bal de las Casas, Chis.</p>
+            <p><i class="bi bi-house me-3"></i> Francisco I&#46; Madero 29, Zona Centro&#44; 29200 San Crist&oacute;bal de las Casas&#44; Chis&#46;</p>
             <p>
               <i class="bi bi-envelope me-3"></i>
-              info@lacasadelarbol.com
+              info@lacasadelarbol&#46;com
             </p>
           </div>
           <!-- Grid column -->
@@ -368,7 +360,6 @@
         <!-- Grid row -->
       </div>
     </section>
-    <!-- Section: Links  -->
   
     <!-- Copyright -->
     <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
