@@ -2,7 +2,7 @@
 /*FOOTER*/
 .footer-lca
 {
-  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%); 
+  background-image: repeating-linear-gradient(250deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),repeating-linear-gradient(172deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),repeating-linear-gradient(161deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),repeating-linear-gradient(299deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),linear-gradient(90deg, rgb(126, 102, 150),rgb(38, 230, 211));
 }
 
 /*NAVBAR*/
@@ -93,7 +93,7 @@
 
 .texto-justificado
 {
-  justify-content: center;
+  text-align: justify;
 }
 
 /** dispositivos pequeños en vista landscape (horizontal) */
@@ -127,14 +127,53 @@
   transform: translateX(-50%) translateY(100%);
   opacity: 0.8;
 }
+
+.custom-shape-divider-top-1626536378 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1626536378 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 28px;
+}
+
+.custom-shape-divider-top-1626536378 .shape-fill {
+  fill: #FAAF3F;
+}
+
+.custom-shape-divider-top-1626536760 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1626536760 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 28px;
+}
+
+.custom-shape-divider-top-1626536760 .shape-fill {
+  fill: #FAAF3F;
+}
+
 /*** TERMINA GLOBAL ***/
 
 /*** INICIA HEADER ***/
 .colorcito-header {
- /* background-image: linear-gradient(37deg, rgb(32, 218, 233),rgb(40, 21, 236));*/
-  /*background-image: linear-gradient(90deg, rgb(212, 91, 106),rgb(255, 224, 123));*/
 
-  background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+  background-image: repeating-linear-gradient(250deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),repeating-linear-gradient(172deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),repeating-linear-gradient(161deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),repeating-linear-gradient(299deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),linear-gradient(90deg, rgb(126, 102, 150),rgb(38, 230, 211));
   padding-bottom: 0px !important;
  
 }
@@ -154,8 +193,9 @@
 .botoncin-header
 {
     color: #fff;
-    background-color: #110042;
-    border-color: #110042;
+    background-color: #FF695F;
+    border-color: #FF695F;
+    width: 80%;
 }
 
 .botoncin-header:hover
@@ -202,7 +242,7 @@
 /**SECCIÓN DE WHAT TO DO**/
 .seccion-quehacer
 {
-  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+  background-image: repeating-linear-gradient(250deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),repeating-linear-gradient(172deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),repeating-linear-gradient(161deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),repeating-linear-gradient(299deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),linear-gradient(90deg, rgb(126, 102, 150),rgb(38, 230, 211));
 }
 
 .seccion-quehacer .card
@@ -225,7 +265,7 @@
 
 .seccion-quehacer-boton-lca
 {
-  background-color: #184E77;
+  background-color: #FF695F;
   color: white;
   border-radius: 25px;
   border: none;
@@ -233,7 +273,7 @@
 
 .seccion-quehacer-boton-lca:hover
 {
-  background-color: #168AAD;
+  background-color: #FAAF3F;
   color: white;
   border-radius: 25px;
 
@@ -242,7 +282,7 @@
 /*** INICIA SECCIÓN DE CARDS ***/
   .cardcito2
   {
-    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    background-image: repeating-linear-gradient(250deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),repeating-linear-gradient(172deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),repeating-linear-gradient(161deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),repeating-linear-gradient(299deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),linear-gradient(90deg, rgb(126, 102, 150),rgb(38, 230, 211));
   }
 
 .cardcito2 .card
@@ -276,7 +316,7 @@
 
 .cardcito2-boton-lca
 {
-  background-color: #184E77;
+  background-color: #FF695F;
   color: white;
   border-radius: 25px;
   border: none;
@@ -284,7 +324,7 @@
 
 .cardcito2-boton-lca:hover
 {
-  background-color: #168AAD;
+  background-color: #03A4ED;
   color: white;
   border-radius: 25px;
 
@@ -296,7 +336,7 @@
 /*** INICIA SECCIÓN DE FACILIDADES. ***/
 .seccion-facilidades
 {
-  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+  background-image: repeating-linear-gradient(250deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),repeating-linear-gradient(172deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),repeating-linear-gradient(161deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),repeating-linear-gradient(299deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),linear-gradient(90deg, rgb(126, 102, 150),rgb(38, 230, 211));
 }
 
 /*Colores a Iconos*/
@@ -323,7 +363,7 @@
 /*** INICIA SECCIÓN DE TESTIMONIOS. ***/
 .seccion-testimonio
 {
-  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%); 
+  background-image: repeating-linear-gradient(250deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),repeating-linear-gradient(172deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),repeating-linear-gradient(161deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),repeating-linear-gradient(299deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),linear-gradient(90deg, rgb(126, 102, 150),rgb(38, 230, 211));
 }
 
 /*** TERMINA SECCIÓN DE TESTIMONIOS. ***/
@@ -337,7 +377,7 @@
 
 .header-servicios-lca
 {
-  background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+  background-image: repeating-linear-gradient(250deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),repeating-linear-gradient(172deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),repeating-linear-gradient(161deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),repeating-linear-gradient(299deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),linear-gradient(90deg, rgb(126, 102, 150),rgb(38, 230, 211));
   
 }
 
@@ -385,3 +425,15 @@
   border-radius: 25px;
 
 }
+
+
+
+
+/*****************************INICIA PÁGINA DE TALLERES****************************/
+
+
+
+/*****************************INICIA PÁGINA DE NOSOTROS****************************/
+
+
+/*****************************INICIA PÁGINA DE CONTACTO****************************/
