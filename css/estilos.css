@@ -466,7 +466,7 @@
 
 .background-contacto-lca .subcontenedor
 {
-    background: #FFF4DE !important;
+  background-image: repeating-linear-gradient(250deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),repeating-linear-gradient(172deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),repeating-linear-gradient(161deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),repeating-linear-gradient(299deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),linear-gradient(90deg, rgb(126, 102, 150),rgb(38, 230, 211)); 
 }
 
 /*FORMULARIO, INPUTS*/
