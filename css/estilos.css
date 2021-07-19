@@ -2,16 +2,16 @@
 /*FOOTER*/
 .footer-lca
 {
- background: #eebbc3;
+ background: #fef6e4;
 }
 .footer-titulo
 {
- color:#232946;
+ color:#001858;
 }
 
 .footer-subtitulo
 {
-  color:#232946;
+  color:#172c66;
 }
 
 /*NAVBAR*/
@@ -335,22 +335,22 @@ color: #fef6e4;
 /*** INICIA SECCIÓN DE FACILIDADES. ***/
 .seccion-facilidades
 {
- background: #d4d8f0;  
+ background: #f3d2c1;  
 }
 
 .seccion-facilidades-titulo
 {
- color: #232946;
+ color: #001858;
 }
 
 .seccion-facilidades-subtitulo
 {
-  color: #232946;
+  color: #172c66;
 }
 
 .seccion-facilidades-parrafo
 {
-  color: #232946;
+  color: #172c66;
 }
 
 /*** TERMINA SECCIÓN DE FACILIDADES. ***/
@@ -358,24 +358,24 @@ color: #fef6e4;
 /*** INICIA SECCIÓN DE TESTIMONIOS. ***/
 .seccion-testimonio
 {
- background: #232946; 
+ background: #fef6e4; 
 }
 
 .seccion-testimonio-titulo
 { 
- color: #fffffe;
+ color: #001858;
 }
 
 .seccion-testimonio-subtitulo
 {
- color: #b8c1ec;
+ color: #172c66;
 }
 /*** TERMINA SECCIÓN DE TESTIMONIOS. ***/
 
 /*** INICIA SECCIÓN DE TRABAJA. ***/
 .seccion-trabajo
 {
- background: #d4d8f0;  
+ background: #fffffe;  
 }
 
 .seccion-trabajo .container .card
@@ -385,25 +385,25 @@ color: #fef6e4;
 
 .seccion-trabajo-titulo
 {
-  color: #232946;
+  color: #001858;
 }
 
 .seccion-trabajo-subtitulo{
-  color: #232946;
+  color: #172c66;
 }
 
 .boton-seccion-trabajo
 {
-  background-color: #232946;
+  background-color: #f582ae;
   border: none;
-  color: #fffffe;
+  color: #001858;
   border-radius: 25px;
 }
 
 .boton-seccion-trabajo:hover
 {
-  background-color: #232946;
-  color: #b8c1ec;
+  background-color: #f582ae;
+  color: #001858;
   border-radius: 25px;
 }
 
