@@ -271,7 +271,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 /*** INICIA SECCIÓN DE CARDS ***/
   .cardcito2
   {
-   background: #fef6e4;  
+   background: #f3d2c1;  
   }
 
 
@@ -280,7 +280,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   border-radius: 10px;
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
   transition: all 0.5s;
-  background: #3F5182;
+  background: #fef6e4;
 }
 
 .cardcito2 .card:hover
@@ -306,12 +306,12 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 .cardcito2-titulocard-lca
 {
- color: #fffffe;
+ color: #001858;
 }
 
 .cardcito2-subtitulocard-lca
 {
-color: #fef6e4;
+color: #172c66;
 }
 
 .cardcito2-boton-lca
