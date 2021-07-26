@@ -16,7 +16,7 @@
 
 /*NAVBAR*/
 .navbar-dark {
-    background-color: #fef6e4 !important;
+    background-color: #fffffe !important;
 
     /*Opacity start
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
@@ -28,7 +28,7 @@
 }
 
 .navbar-dark .navbar-brand {
-  color: #001858;
+  color: #272343;
 }
 
 .navbar-dark .navbar-brand:hover
@@ -37,12 +37,21 @@
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #001858;
+  color: #272343;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover{
   color: #172c66;
 }
+
+.navbar-dark .navbar-toggler
+{
+  background: #272343;
+}
+ .navbar-toggler-icon
+ {
+   background: #272343;
+ }
 
 /*ESTILOS A LAS A DEL MENU, NAVBAR*/
 .estilito
@@ -193,11 +202,12 @@
 
 .background-inside-headercito
 {
-  background: #e3f6f5;
+  background: #fffffe;
   opacity: 0.8;
 
   border-radius: 30% 31% 30% 30% / 0% 0% 30% 30% ;
 }
+
 
 .withoutbottom
 {
@@ -209,12 +219,7 @@
     color: #272343;
 /*    text-shadow: 2px 2px 4px #FDE4E6;*/
 }
-
-.colorcito-texto-header:hover
-{
-  transition: all 1s ease-in-out;
-}
-
+ 
 .colorcito-subtexto-header
 {
   color: #2d334a;
