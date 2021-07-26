@@ -2,16 +2,16 @@
 /*FOOTER*/
 .footer-lca
 {
- background: #fef6e4;
+ background: #e3f6f5;
 }
 .footer-titulo
 {
- color:#001858;
+ color:#272343;
 }
 
 .footer-subtitulo
 {
-  color:#172c66;
+  color:#2d334a;
 }
 
 /*NAVBAR*/
@@ -152,7 +152,7 @@
   width: 100%;
   overflow: hidden;
   line-height: 0;
-  background: #fef6e4;
+  background: #fffffe;
 }
 
 .custom-shape-divider-top-1626828876 svg {
@@ -162,9 +162,32 @@
   height: 25px;
 }
 
-.custom-shape-divider-top-1626828876 .shape-fill {
-  fill: #F3D2C1;
+.custom-shape-divider-top-celestito .shape-fill {
+  fill: #2d334a;
 }
+
+.custom-shape-divider-top-celestito {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  background: #e3f6f5;
+}
+
+.custom-shape-divider-top-celestito svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 25px;
+}
+
+.custom-shape-divider-top-celestito .shape-fill {
+  fill: #2d334a;
+}
+
+
 
 /*** TERMINA GLOBAL ***/
 
@@ -236,7 +259,7 @@
 
 .botoncin-header:hover
 {
-    color: #001858;
+    color: #272343;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
@@ -341,15 +364,16 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 .cardcito2 .card
 {
+  
   border-radius: 10px;
-  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
   transition: all 0.5s;
   background: #fffffe;
 }
 
 .cardcito2 .card:hover
 {
-  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   transform: scale(1.01);
 }
 
@@ -388,9 +412,10 @@ color: #2d334a;
 
 .cardcito2-boton-lca:hover
 {
-  background-color:#fef6e4;
-  color: #001858;
+  background-color:#fffffe;
+  color: #272343;
   border-radius: 25px;
+  border: 1px solid #2d334a;
 }
 
 
@@ -399,7 +424,7 @@ color: #2d334a;
 /*** INICIA SECCIÓN DE FACILIDADES. ***/
 .seccion-facilidades
 {
- background: #fffffe;  
+  background: #fffffe;
 }
 
 .seccion-facilidades-titulo
@@ -422,54 +447,57 @@ color: #2d334a;
 /*** INICIA SECCIÓN DE TESTIMONIOS. ***/
 .seccion-testimonio
 {
- background: #fef6e4; 
+ background:#e3f6f5; 
 }
 
 .seccion-testimonio-titulo
 { 
- color: #001858;
+ color: #272343;
 }
 
 .seccion-testimonio-subtitulo
 {
- color: #172c66;
+ color: #2d334a;
 }
 /*** TERMINA SECCIÓN DE TESTIMONIOS. ***/
 
 /*** INICIA SECCIÓN DE TRABAJA. ***/
 .seccion-trabajo
 {
- background: #fffffe;  
+ background: #fffffe;
 }
 
-.seccion-trabajo .container .card
+.seccion-trabajo .segundocontainer
 {
- background: #fffffe;  
+ background: #e3f6f5; 
 }
 
 .seccion-trabajo-titulo
 {
-  color: #001858;
+  color: #2d334a;
 }
 
-.seccion-trabajo-subtitulo{
-  color: #172c66;
+.seccion-trabajo-subtitulo
+{
+  color:#2d334a;
 }
 
 .boton-seccion-trabajo
 {
-  background-color: #f582ae;
+  background-color: #ffd803;
   border: none;
-  color: #001858;
+  color: #272343;
   border-radius: 25px;
 }
 
 .boton-seccion-trabajo:hover
 {
-  background-color: #f582ae;
-  color: #001858;
+  background-color: transparent;
+  color: #272343;
   border-radius: 25px;
+  border: 1px solid #2d334a;
 }
+
 
 /*** TERMINA SECCIÓN DE TRABAJA ***/
 
@@ -503,14 +531,13 @@ color: #2d334a;
 
 .cards-servicios-titulo-lca
 {
-  color: #1D183E;
+  color: #272343;
 }
 
 .cards-servicios-subtitulo-lca
 {
-  color: #184E77;
+  color: #2d334a;
 }
-
 .cards-servicios-boton-lca
 {
   background-color: #184E77;
@@ -537,37 +564,47 @@ color: #2d334a;
 /*****************************INICIA PÁGINA DE NOSOTROS****************************/
 .background-nosotros-lca
 {
- background: #fef6e4;
+ background: #fffffe;
 }
 
 
 .conocenos-boton-nosotros-lca
 {
-  background-color: #f582ae;
+  background-color: #ffd803;
   border: none;
-  color:#001858;
+  color:#272343;
   border-radius: 25px;
   width: 70%;
 }
 
 .conocenos-boton-nosotros-lca:hover
 {
-  background-color: #f582ae;
-  color: #001858;
+  background-color: #ffd803;
+  color: #272343;
   border-radius: 25px;
 }
 
 /*****************************INICIA PÁGINA DE CONTACTO****************************/
 .background-contacto-lca
 {
- background: #fef6e4;
+ background: #fffffe;
 }
 
 .background-contacto-lca .subcontenedor
 {
- background: #fef6e4;
+ background: #fffffe;
 }
 
+
+.background-contacto-lca-titulo
+{
+  color: #272343;
+}
+
+.background-contacto-lca-subtitulo
+{
+ color: #2d334a;
+}
 /*FORMULARIO, INPUTS*/
 .form-floating .form-control
 {
@@ -585,16 +622,16 @@ color: #2d334a;
 /*FORMULARIO, BUTTON*/
 
 .btn-contactus .btn-primary:disabled, .btn-contactus .btn-primary.disabled {
-  color: #fff;
-  background-color: #FF695F;
-  border-color: #FF695F;
+  color: #272343;
+  background-color: #ffd803;
+  border-color: #ffd803;
   border-radius: 3rem;
 }
 
 .btn-contactus .btn-primary {
-  color: #fff;
-  background-color: #FF695F;
-  border-color: #FF695F;
+  color: #272343;
+  background-color: #ffd803;
+  border-color: #ffd803;
   border-radius: 3rem;
 }
 
