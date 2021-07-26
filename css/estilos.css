@@ -136,13 +136,67 @@
   opacity: 0.8;
 }
 /*SHAPE DIVIDER*/
+.custom-shape-divider-top-1626828876 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  background: #fef6e4;
+}
+
+.custom-shape-divider-top-1626828876 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 25px;
+}
+
+.custom-shape-divider-top-1626828876 .shape-fill {
+  fill: #F3D2C1;
+}
 
 /*** TERMINA GLOBAL ***/
 
 /*** INICIA HEADER ***/
-.colorcito-header {
-background: #fef6e4; 
-padding-bottom: 0px !important;
+
+.header-colorcito-filter::after {
+  -webkit-backdrop-filter: blur(5px); /* Use for Safari 9+, Edge 17+ (not a mistake) and iOS Safari 9.2+ */
+  backdrop-filter: blur(1px); /* Supported in Chrome 76 */
+
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%; 
+  height: 100%;
+  top: 0;
+}
+
+.header-colorcito-filter {
+  position: relative;
+}
+
+.header-colorcito {
+  background-image: url('../src/headercito1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+/* Use for content that should not be blurred */
+.contenido-no-blurred {
+  position: relative;
+  z-index: 1;
+}
+
+.background-inside-headercito
+{
+  background: #e3f6f5;
+  opacity: 0.8;
+
+  border-radius: 30% 31% 30% 30% / 0% 0% 30% 30% ;
 }
 
 .withoutbottom
@@ -152,20 +206,25 @@ padding-bottom: 0px !important;
 
 .colorcito-texto-header
 {
-    color: #001858;
+    color: #272343;
 /*    text-shadow: 2px 2px 4px #FDE4E6;*/
+}
+
+.colorcito-texto-header:hover
+{
+  transition: all 1s ease-in-out;
 }
 
 .colorcito-subtexto-header
 {
-  color: #172c66;
+  color: #2d334a;
 }
 
 .botoncin-header
 {
-    color: #001858;
-    background-color: #f582ae;
-    border-color: #f582ae;
+    color: #272343;
+    background-color: #ffd803;
+    border-color: #ffd803;
     width: 80%;
     border-radius: 3em;
 }
@@ -271,7 +330,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 /*** INICIA SECCIÓN DE CARDS ***/
   .cardcito2
   {
-   background: #f3d2c1;  
+   background: #e3f6f5;  
   }
 
 
@@ -280,7 +339,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   border-radius: 10px;
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
   transition: all 0.5s;
-  background: #fef6e4;
+  background: #fffffe;
 }
 
 .cardcito2 .card:hover
@@ -296,28 +355,28 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 .cardcito2-titulo-lca
 {
-  color: #001858;
+  color: #272343;
 }
 
 .cardcito2-subtitulo-lca
 {
-  color: #172c66;
+  color: #2d334a;
 }
 
 .cardcito2-titulocard-lca
 {
- color: #001858;
+ color: #272343;
 }
 
 .cardcito2-subtitulocard-lca
 {
-color: #172c66;
+color: #2d334a;
 }
 
 .cardcito2-boton-lca
 {
-  background-color: #fef6e4;
-  color:#001858;
+  background-color:#272343;
+  color:#fffffe;
   border-radius: 25px;
   border: none;
 }
@@ -335,22 +394,22 @@ color: #172c66;
 /*** INICIA SECCIÓN DE FACILIDADES. ***/
 .seccion-facilidades
 {
- background: #f3d2c1;  
+ background: #fffffe;  
 }
 
 .seccion-facilidades-titulo
 {
- color: #001858;
+ color: #272343;
 }
 
 .seccion-facilidades-subtitulo
 {
-  color: #172c66;
+  color: #2d334a;
 }
 
 .seccion-facilidades-parrafo
 {
-  color: #172c66;
+  color: #2d334a;
 }
 
 /*** TERMINA SECCIÓN DE FACILIDADES. ***/
@@ -473,37 +532,35 @@ color: #172c66;
 /*****************************INICIA PÁGINA DE NOSOTROS****************************/
 .background-nosotros-lca
 {
-  background-image: repeating-linear-gradient(250deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),repeating-linear-gradient(172deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),repeating-linear-gradient(161deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),repeating-linear-gradient(299deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),linear-gradient(90deg, rgb(126, 102, 150),rgb(38, 230, 211)); 
+ background: #fef6e4;
 }
+
 
 .conocenos-boton-nosotros-lca
 {
-  background-color: #FF695F;
+  background-color: #f582ae;
   border: none;
-  color: white;
+  color:#001858;
   border-radius: 25px;
   width: 70%;
 }
 
 .conocenos-boton-nosotros-lca:hover
 {
-  background-color: #03A4ED;
-  color: white;
+  background-color: #f582ae;
+  color: #001858;
   border-radius: 25px;
 }
-
-
-
 
 /*****************************INICIA PÁGINA DE CONTACTO****************************/
 .background-contacto-lca
 {
-  background-image: repeating-linear-gradient(250deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),repeating-linear-gradient(172deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),repeating-linear-gradient(161deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),repeating-linear-gradient(299deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),linear-gradient(90deg, rgb(126, 102, 150),rgb(38, 230, 211)); 
+ background: #fef6e4;
 }
 
 .background-contacto-lca .subcontenedor
 {
-  background-image: repeating-linear-gradient(250deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),repeating-linear-gradient(172deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),repeating-linear-gradient(161deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),repeating-linear-gradient(299deg, rgb(255,255,255) 0px, rgb(255,255,255) 31px,transparent 31px, transparent 35px),linear-gradient(90deg, rgb(126, 102, 150),rgb(38, 230, 211)); 
+ background: #fef6e4;
 }
 
 /*FORMULARIO, INPUTS*/
