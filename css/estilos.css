@@ -554,12 +554,16 @@ color: #2d334a;
 
 }
 
-
-
-
 /*****************************INICIA PÁGINA DE TALLERES****************************/
 
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
 
+.showcase .showcase-text {
+  padding: 3rem;
+}
 
 /*****************************INICIA PÁGINA DE NOSOTROS****************************/
 .background-nosotros-lca
