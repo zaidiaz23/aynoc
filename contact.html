@@ -105,57 +105,32 @@
                     <div class="rounded-3 py-5 px-4 px-md-5 mb-5 subcontenedor">
                         <div class="row gx-5 justify-content-center">
                             <div class="col-lg-12 col-xl-10">
-                                <form id="contactp" data-sb-form-api-token="API_TOKEN" name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
-                                    <!-- Name input-->
-                                    <input type="hidden" name="form-name" value="contact" />
-                                    <div class="apartadocontacto-form-floating mb-3">
-                                        <input class="form-control" id="name" name="nombre" type="text" placeholder="Escribe tu nombre..." data-sb-validations="required" />
-                                        <label for="name">Nombre completo</label>
-                                        <div class="invalid-feedback" data-sb-feedback="name:required">Completa tu nombre.</div>
-                                    </div>
-                                    <!-- Email address input-->
-                                    <div class="apartadocontacto-form-floating mb-3">
-                                        <input class="form-control" id="email" name="correo" type="email" placeholder="correo de ejemplo" data-sb-validations="required,email" />
-                                        <label for="email">Correo electr&oacute;nico</label>
-                                        <div class="invalid-feedback" data-sb-feedback="email:required">Proporciona tu correo</div>
-                                        <div class="invalid-feedback" data-sb-feedback="email:email">Correo no es válido.</div>
-                                    </div>
-                                    <!-- Phone number input-->
-                                    <div class="apartadocontacto-form-floating mb-3">
-                                        <input class="form-control" id="phone" name="celular" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                        <label for="phone">Celular</label>
-                                        <div class="invalid-feedback" data-sb-feedback="phone:required">Completa tu número telefónico.</div>
-                                    </div>
-                                    <!-- Message input-->
-                                    <div class="apartadocontacto-form-floating mb-3">
-                                        <textarea class="form-control"  id="message" name="mensaje" type="text" placeholder="Escribe tu mensaje..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                        <label for="message">Quejas o sugerencias</label>
-                                        <div class="invalid-feedback" data-sb-feedback="message:required">Describenos tu mensaje.</div>
-                                    </div>
-                                    <!-- Submit success message-->
-                                    <!---->
-                                    <!-- This is what your users will see when the form-->
-                                    <!-- has successfully submitted-->
-                                    <div class="d-none" id="submitSuccessMessage">
-                                        <div class="text-center mb-3">
-                                            <div class="fw-bolder">Tus dudas han sido enviadas.</div>
-                                        </div>
-                                    </div>
-                                    <!-- Submit error message-->
-                                    <!---->
-                                    <!-- This is what your users will see when there is-->
-                                    <!-- an error submitting the form-->
-                                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                                    <!-- Submit Button-->
-                                    <div class="d-grid apartadocontacto-boton"><button class="btn btn-primary btn-lg disabled" id="submitButton" name="enviarinfo" type="submit">Haznos saber</button></div>
+                               
 
-                                    
-                                </form>
-
-                                <form name="datito" method="POST" netlify-honeypot="bot-field" data-netlify="true">/>
-                                    <label for="named">Nombre completo</label>
-                                    <input class="form-control" id="name" name="nombre1" type="text" placeholder="Escribe tu nombre..." />
-                                </form>
+                                <form
+    className="contact-form"
+    name="contact"
+    method="POST"
+    action="/success/"
+    data-netlify="true"
+    netlify-honeypot="bot-field"
+>
+    <input type="hidden" name="bot-field" />
+    <input type="hidden" name="form-name" value="contact" />
+    <label>
+        Name*
+        <input aria-required="true" type="text" id="name" name="name" />
+    </label>
+    <label>
+        Email*
+        <input aria-required="true" type="email" id="email" name="email" />
+    </label>
+    <label>
+        Message*
+        <textarea aria-required="true" id="message" name="message"></textarea>
+    </label>
+    <button type="submit" className="button button--primary">Submit</button>
+</form>
                             </div>
                         </div>
                     </div>  
