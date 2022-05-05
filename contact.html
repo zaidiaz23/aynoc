@@ -108,14 +108,15 @@
                                
                                 <form   
                                 name="contact" 
-                                action="POST"
-                                netlify-honeypot="bot-field"
+                                method="POST" 
+                                action="/success/"
+                                
                                 data-netlify="true"
                                 data-sb-form-api-token="API_TOKEN"
                                 id="contactp"
                                 >
                                     <!-- Name input-->
-                                <input type="hidden" name="bot-field" />
+                                
                                 <input type="hidden" name="form-name" value="contact" />
                                     <div class="apartadocontacto-form-floating mb-3">
                                         <input class="form-control" id="name" name="name" type="text" placeholder="Escribe tu nombre..." data-sb-validations="required" />
