@@ -98,7 +98,28 @@
                     </div>
                     
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                      <button type="button" class="btn btn-outline-secondary btn-lg px-4">Sube tu cv</button>
+                      <form
+                        name="cv" 
+                        method="POST"
+                        data-netlify="true"
+                        data-sb-form-api-token="API_TOKEN"
+                        id="cv"
+                      >
+                      
+                        <!-- Email address input-->
+                        <div class="apartadocontacto-form-floating mb-3">
+                            <input class="form-control" id="email" name="email" type="email" placeholder="Ingresa tu correo" data-sb-validations="required,email" />
+                            <div class="invalid-feedback" data-sb-feedback="email:required">Proporciona tu correo</div>
+                            <div class="invalid-feedback" data-sb-feedback="email:email">Correo no es valido</div>
+                        </div>
+                        <div class="apartadocontacto-form-floating mb-3">
+                          <input class="form-control" type="file" id="file_cv" name="file_cv">
+                        </div>
+                        <div class="apartadocontacto-form-floating mb-3">
+                          <div data-netlify-recaptcha="true"></div>
+                        </div>  
+                      <div class="d-grid apartadocontacto-boton"><button id="submitButton" name="submitButton" type="submit" type="button" class="btn btn-outline-secondary btn-lg px-4">Sube tu cv</button></div>
+                      </form>                      
                     </div>
                   </div>
                 </div>
