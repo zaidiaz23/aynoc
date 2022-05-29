@@ -4,6 +4,7 @@
   --back-bg-celeste: #e3f6f5; /*Fondos celestes*/
   --back-bg-blanco: #fffffe; /*Fondos blancos*/
   --back-bg-azul: #2d334a; /*Fondos azules*/
+  --back-bg-amarillo: #ffd803; /*Fondos amarillos*/
   
   --back-boton-azul: #272343; /*Fondos azules botones*/
   --back-boton-amarillo: #ffd803; /*Fondos amarillos, botones*/
@@ -12,6 +13,8 @@
   --titulo-principal-azul: #272343; /*Títulos azules*/
   --subtitulo-principal-azul: #2d334a; /*Subtítulos azules*/
   --texto-color-blanco: #fffffe; /*Textos blancos*/
+  --texto-color-amarillo: #ffd803;
+  --texto-color-celeste: #e3f6f5;
   
   --fuente-muli: 'Muli', sans-serif;
   
@@ -223,7 +226,7 @@
 }
 
 .motivoshome-cards h2{
-  color: var(--back-boton-amarillo);
+  color: var(--texto-color-amarillo);
   font-family: var(--fuente-muli);
 }
 
@@ -705,7 +708,7 @@ No media query for `xs` since this is the default in Bootstrap*/
 
 .apartadotallees-header-titulo
 {
-  color: var(--back-boton-amarillo);
+  color: var(--texto-color-amarillo);
   font-family: var(--fuente-muli);
 }
 
@@ -1021,11 +1024,48 @@ No media query for `xs` since this is the default in Bootstrap*/
   fill: #2d334a;
 }
 
+/*tipografía muli*/
+.tipografia-lca
+{
+  font-family: var(--fuente-muli);
+}
+
 
 
 /*****************************INICIA PÁGINA DE IDIOMA - INGLÉS****************************/
+/*agregando tipografía al texto*/
 
-/*Los navs*/
+
+
+/*Shadows a los cards iniciales*/
+.cardsshadow-lca-eng
+{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+/* Backgrounds de los iconos de los cards*/
+
+.bg-icons-lca-eng
+{
+  background-color: var(--back-bg-amarillo);
+}
+
+.bg-icons-lca-eng i 
+{
+  color: var(--titulo-principal-azul);
+}
+
+.bg-badge-lca-eng
+{
+  background-color: var(--back-bg-azul);
+}
+
+.bg-badge-lca-eng
+{
+  color: var(--texto-color-celeste);
+}
+
+
+/*Los navs - tabs*/
 .nav-lca
 {
   border-bottom: 0px solid transparent;
@@ -1034,4 +1074,28 @@ No media query for `xs` since this is the default in Bootstrap*/
 .nav-lca-btn
 {
   border: none;
+}
+
+
+.boton-lca-eng
+{
+    color: var(--titulo-principal-azul);
+    background-color: var(--back-boton-amarillo);
+    border-color: var(--back-boton-amarillo);
+    width: 80%;
+    border-radius: 3em;
+    font-family: var(--fuente-muli);
+}
+
+.boton-lca-eng:hover
+{
+  background-color: transparent;
+  color: #272343;
+  border-radius: 25px;
+  border: 1px solid #2d334a;
+}
+
+.cards-sig-idioma
+{
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px !important;
 }
