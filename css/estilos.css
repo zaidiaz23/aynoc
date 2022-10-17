@@ -304,65 +304,6 @@
   border: 1px solid #2d334a;
 }
 
-
-.cardsidiomas-vermas a {
-  position: relative;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  color: var(--back-boton-azul);
-  text-decoration: none;
-  font-size: 1.2em;
-  display: inline-block;
-  font-family: Montserrat;
-  text-transform:none;
-  padding: 0.5em 2em;
-  border: 2px solid #272343;
-  transition: 0.02s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
-  border-radius: 25px;
-  font-family: var(--fuente-muli);
-}
-.cardsidiomas-vermas a::before {
-  content: "";
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 100%;
-  bottom: 0;
-  background-color: var(--back-boton-amarillo);
-  transition: 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1), left 0.3s cubic-bezier(0.1, 0, 0.1, 1);
-  z-index: -1;
-  border-radius: 25px;
-}
-.cardsidiomas-vermas a::after {
-  content: "";
-  display: inline-block;
-  background-image: url("https://image.flaticon.com/icons/png/128/109/109617.png");
-  position: absolute;
-  top: 0;
-  left: calc(100% - 3em);
-  bottom: 0;
-  right: 3em;
-  background-size: 1.5em;
-  background-repeat: no-repeat;
-  background-position: center;
-  transition: right 0.3s cubic-bezier(0.1, 0, 0.1, 1);
-}
-.cardsidiomas-vermas a:hover {
-  padding: 0.5em 3.5em 0.5em 0.5em;
-}
-.cardsidiomas-vermas a:hover::before {
-  left: calc(100% - 3em);
-  right: 0;
-  transition: 0.3s cubic-bezier(0.1, 0, 0.1, 1), left 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
-}
-.cardsidiomas-vermas a:hover::after {
-  right: 0;
-  transition: right 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
-}
-
-
 /*** SECCIÓN DE CTA ***/
 .ctahome
 {
@@ -703,7 +644,7 @@ No media query for `xs` since this is the default in Bootstrap*/
 
 .headertalleres
 {
- background-color: var(--back-bg-azul);
+ background-color: var(--back-bg-azul) !important;
 }
 
 .apartadotallees-header-titulo
