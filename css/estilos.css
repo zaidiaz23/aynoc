@@ -1,4 +1,5 @@
-/*** GLOBAL ***/
+
+/*#region global configuration - page*/
 
 :root {
   --back-bg-celeste: #e3f6f5; /*Fondos celestes*/
@@ -84,7 +85,7 @@
   position: relative;
   display: block;
   padding: 4px 0;
-  font-family: Lato, sans-serif;
+  font-family: var(--fuente-muli);
   color: #172c66;
   text-decoration: none;
   text-transform: uppercase;
@@ -135,10 +136,9 @@
 }
 }
 
-/*** TERMINA GLOBAL ***/
+/*#endregion */
 
-
-/***************************** PÁGINA DE HOME ****************************/
+/*#region home - page*/
 
 /*** HEADER ***/
 
@@ -422,10 +422,9 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   border-radius: 25px;
   border: 1px solid #2d334a;
 }
+/*#endregion */
 
-/*****************************INICIA PÁGINA DE SERVICIOS****************************/
-
-/*****************************INICIA PÁGINA DE CURSOSs****************************/
+/*#region courses - page*/
 .courses-container {
 
 }
@@ -566,7 +565,7 @@ No media query for `xs` since this is the default in Bootstrap*/
 
   .course{
     height: 300px;
-    margin-right: 4px;
+    margin: 2px;
   }
 
   .progress-container
@@ -639,8 +638,9 @@ No media query for `xs` since this is the default in Bootstrap*/
   border-radius: 25px;
 
 }
+/*#endregion */
 
-/*****************************INICIA PÁGINA DE TALLERES****************************/
+/*#region talleres - page*/
 
 .headertalleres
 {
@@ -768,7 +768,9 @@ No media query for `xs` since this is the default in Bootstrap*/
 }
 
 
-/*****************************INICIA PÁGINA DE NOSOTROS****************************/
+/*#endregion */
+
+/*#region us - page*/
 
 .apartadonosotros
 {
@@ -805,11 +807,10 @@ No media query for `xs` since this is the default in Bootstrap*/
   border-radius: 25px;
   border: 1px solid #2d334a;
 }
+/*#endregion */
 
+/*#region contact us-page*/
 
-
-
-/*****************************INICIA PÁGINA DE CONTACTO****************************/
 .apartadocontacto
 {
  background-color: var(--back-bg-blanco);
@@ -970,10 +971,9 @@ No media query for `xs` since this is the default in Bootstrap*/
 {
   font-family: var(--fuente-muli);
 }
+/*#endregion */
 
-
-
-/*****************************INICIA PÁGINA DE IDIOMA - INGLÉS****************************/
+/*#region configuration - idiom pages*/
 /*agregando tipografía al texto*/
 
 
@@ -1040,3 +1040,6 @@ No media query for `xs` since this is the default in Bootstrap*/
 {
   box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px !important;
 }
+
+/*#endregion */
+
